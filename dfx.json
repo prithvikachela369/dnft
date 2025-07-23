@@ -4,6 +4,11 @@
       "main": "src/dnft_backend/main.mo",
       "type": "motoko"
     },
+
+    "nft":{
+      "main": "src/dnft_backend/NFT/nft.mo",
+      "type": "motoko"
+    },
     "dnft_frontend": {
       "dependencies": [
         "dnft_backend"
